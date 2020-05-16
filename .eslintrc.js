@@ -1,21 +1,23 @@
 module.exports = {
+  root: true,
   env: {
     browser: true,
-    es6: true,
-    node: true,
-    jest: true
-  },
-  extends: ['airbnb-base'],
-  globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly'
+    node: true
   },
   parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module'
+    parser: 'babel-eslint'
   },
+  extends: [
+    '@nuxtjs',
+    'prettier',
+    'prettier/vue',
+    'plugin:prettier/recommended',
+    'plugin:nuxt/recommended'
+  ],
+  plugins: [
+    'prettier'
+  ],
+  // add your custom rules here
   rules: {
-    'comma-dangle': ['error', 'never'],
-    'no-param-reassign': ['error', { props: false }]
   }
-};
+}
