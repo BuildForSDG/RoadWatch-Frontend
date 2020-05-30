@@ -1,0 +1,50 @@
+{
+  "name": "RoadwatchFront",
+  "version": "1.0.0",
+  "description": "Road reporting pwa",
+  "author": "SDG TEAM 206",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "test": "jest"
+  },
+  "lint-staged": {
+    "*.{js,vue}": "yarn lint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "bootstrap": "^4.5.0",
+    "bootstrap-vue": "^2.14.0",
+    "eslint-plugin-es-beautifier": "^1.0.1",
+    "nuxt": "^2.0.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.0.0",
+    "jest": "^24.1.0",
+    "lint-staged": "^10.0.0",
+    "prettier": "^1.19.1",
+    "vue-cli-plugin-vuetify": "~2.0.5",
+    "vue-jest": "^4.0.0-0"
+  }
+}
