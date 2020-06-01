@@ -73,7 +73,7 @@
             to="/submit"
             style=" 
            font-size: 20px;
-    color: red;"
+          color: red;"
             >Submit
           </nuxt-link>
         </button>
