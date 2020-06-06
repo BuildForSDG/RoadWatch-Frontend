@@ -46,7 +46,7 @@
     <section>
          <div class="row m-4" >
                 <div class="col-12 p-2">
-                    <p class="text-center text-success"> 10 points earned</p>
+                    <p class="text-center text-success text-black-50"> 10 points earned</p>
                 </div>
             </div>
     </section>
@@ -144,7 +144,7 @@
     </section>
 
     <section>
-        <h3 class="lead m-4 text-center text-capitalize font-weight-bold">The Closet Response Team <br> 
+        <h3 class="lead m-4 text-center text-capitalize ">The Closet Response Team <br> 
         Is on the way</h3>
     </section>
   </div>
